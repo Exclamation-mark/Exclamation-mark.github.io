@@ -36,5 +36,6 @@ export default defineConfig({
       exclude: ["@resvg/resvg-js"],
     },
   },
+  outDir: "docs",
   scopedStyleStrategy: "where",
 });

@@ -5,5 +5,5 @@ UNAME_S := $(shell uname -s)
 build:
 	pnpm run build
 
-docs:
+doc:
 	pnpm run dev

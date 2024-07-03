@@ -2,6 +2,8 @@
 title: Tailwind Typography Plugin
 author: Sat Naing
 pubDatetime: 2024-07-03T16:31:16Z
+
+slug: cfvgbhnm
 featured: false
 draft: false
 tags:

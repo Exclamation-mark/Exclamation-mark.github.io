@@ -2,6 +2,7 @@
 author: Simon Smale
 pubDatetime: 2024-07-03T16:31:15Z
 modDatetime:
+slug: cdfgvbhj
 title: How to add a new Social Icon to AstroPaper
 featured: false
 draft: false

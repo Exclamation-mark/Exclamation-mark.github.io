@@ -3,6 +3,8 @@
 
 npx lint-staged
 
+echo 'pre gogogo'
+
 
 # Modified files, update the modDatetime
 git diff --cached --name-status | grep -i '^M.*\.md$' | while read _ file; do

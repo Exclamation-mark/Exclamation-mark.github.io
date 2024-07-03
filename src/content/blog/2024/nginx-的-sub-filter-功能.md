@@ -1,17 +1,17 @@
 ---
-  title:  nginx 的 sub filter 功能
-  author: zzq
-  pubDatetime: 2024-07-03T18:04:08.772Z
-  modDatetime: 2024-07-03T18:04:08.772Z
-  slug: nginx-的-sub-filter-功能
-  featured: true
-  draft: false
-  tags:
-    - 后端
-    - 前端
-  ogImage: ""
-  description:  nginx 的 sub filter 功能
-  canonicalURL: ""
+title: nginx 的 sub filter 功能
+author: zzq
+pubDatetime: 2024-07-03T18:04:08.772Z
+modDatetime: 2024-07-03T18:04:08.772Z
+slug: kijkuhugh
+featured: true
+draft: false
+tags:
+  - 后端
+  - 前端
+ogImage: ""
+description: nginx 的 sub filter 功能
+canonicalURL: ""
 ---
 
 ### Table of contents

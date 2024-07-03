@@ -7,3 +7,6 @@ build:
 
 doc:
 	pnpm run dev
+
+gen:
+	npx ts-node ./script/index.ts

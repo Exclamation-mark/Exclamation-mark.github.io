@@ -23,7 +23,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <Header />
   <main id="main-content">
     <section id="hero">
-      <h1>Mingalaba</h1>
+      <h1>行码办公室</h1>
       <a
         target="_blank"
         href="/rss.xml"
@@ -42,25 +42,22 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       </a>
 
       <p>
-        AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro
-        blog theme. This theme follows best practices and provides accessibility
-        out of the box. Light and dark mode are supported by default. Moreover,
-        additional color schemes can also be configured.
+        一名全栈工程师的个人博客，记录工作中遇到的问题和解决方案，分享技术和生活感悟。
       </p>
       <p>
-        Read the blog posts or check
+        本博客基于
         <LinkButton
           className="underline decoration-dashed underline-offset-4 hover:text-skin-accent"
           href="https://github.com/satnaing/astro-paper#readme"
         >
           README
-        </LinkButton> for more info.
+        </LinkButton> 构建.
       </p>
       {
         // only display if at least one social link is enabled
         socialCount > 0 && (
           <div class="social-wrapper">
-            <div class="social-links">Social Links:</div>
+            <div class="social-links">其他链接:</div>
             <Socials />
           </div>
         )
@@ -86,26 +83,6 @@ const socialCount = SOCIALS.filter(social => social.active).length;
           </section>
           {recentPosts.length > 0 && <Hr />}
         </>
-      )
-    }
-
-    {
-      recentPosts.length > 0 && (
-        <section id="recent-posts">
-          <h2>Recent Posts</h2>
-          <ul>
-            {recentPosts.map(
-              ({ data, slug }, index) =>
-                index < 4 && (
-                  <Card
-                    href={`/posts/${slug}/`}
-                    frontmatter={data}
-                    secHeading={false}
-                  />
-                )
-            )}
-          </ul>
-        </section>
       )
     }
 

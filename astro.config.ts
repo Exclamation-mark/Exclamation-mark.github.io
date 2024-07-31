@@ -38,4 +38,7 @@ export default defineConfig({
   },
   outDir: "docs",
   scopedStyleStrategy: "where",
+  build: {
+    assets: "assets",
+  },
 });
